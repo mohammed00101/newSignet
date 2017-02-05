@@ -1,0 +1,56 @@
+.media {
+    border-bottom: 1px solid var(--primary);
+    margin-bottom: 40px;
+}
+
+.media .media-left img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    display: inline-block;
+}
+
+.media .media-body h2 a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.media .media-body form .form-group textarea {
+    border-radius: 0px;
+    max-width: 725px;
+    height: 40px !important;
+    max-height: 100px;
+    resize: none;
+}
+
+ul.stream li div.post p {
+    word-wrap: break-word;
+}
+
+.media .media-body form .btn-post {
+    border-radius: 0px;
+    border-color: var(--primary);
+    background-color: var(--secondary-dark);
+}
+
+ul.stream li {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 1em 0;
+    background-color: white !important;
+    padding: 20px 20px 20px 0px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(46,41,78,0.2);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(46,41,78,0.2);
+    box-shadow: 0px 0px 4px 1px rgba(46,41,78,0.2);
+}
+
+ul.stream li div.post div.interaction {
+    padding: 10px;
+    background-color: var(--secondary)
+}
+
+ul.stream li div.post div.interaction a {
+    margin-right: .6em;
+    font-size: 1em;
+    color: var(--primary)
+}

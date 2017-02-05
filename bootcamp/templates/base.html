@@ -1,0 +1,139 @@
+{% load staticfiles i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}SIGNET{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/custom-bootcamp.css' %}" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/bootcamp.js' %}"></script>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    {% block body %}
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <div class="sidebar-brand-container">
+                <a class="navbar-brand" href="{% url 'home' %}">SIGNET</a>
+            </div>
+            {% with request.resolver_match.url_name as url_name %}
+            <ul class="sidebar-nav">
+                <li class="profile-container text-center">
+                    <a href="{% url 'profile' user.username %}" class="profile-link">
+                        <img src="{{ user.profile.get_picture }}" class="img-responsive">
+                    </a>
+                </li>
+                <div class="text-center">
+                    <h3 style="color:white; margin-left:-10px;">{{user.profile.get_screen_name | title }} </h3>
+                    <p style="color:white; color:#999999;">
+                        {% if user.profile.job_title %}<span class="glyphicon glyphicon-briefcase"></span>&nbsp; {{ user.profile.job_title | title }} {% endif %}
+                    </p>
+                    <p style="color:white; color:#999999;">
+                        {% if user.profile.location %}<span class="glyphicon glyphicon-map-marker"></span>&nbsp; {{ user.profile.location | title }} {% endif %}
+                    </p>
+                </div>
+                <li><a class="{% if url_name == 'feeds' %}active-link{% endif %}" href="{% url 'feeds'%}"><span class="glyphicon glyphicon-globe"></span>{% trans 'Feeds' %}</a></li>
+                <li><a class="{% if url_name == 'articles' %}active-link{% endif %}" href="{% url 'articles' %}"><span class="glyphicon glyphicon-th-list"></span>{% trans 'Articles' %}</a></li>
+                <li><a class="{% if url_name == 'questions' %}active-link{% endif %}" href="{% url 'questions' %}"><span class="glyphicon glyphicon-question-sign"></span>{% trans 'Q&A' %}</a></li>
+                <li><a class="{% if url_name == 'network' %}active-link{% endif %}" href="{% url 'network' %}"><span class="glyphicon glyphicon-cloud"></span>{% trans 'Network' %}</a></li>
+                <!-- <li><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></li> -->
+            </ul>
+            {% endwith %}
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="nav-content-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                      <span class="sr-only">Toggle navigation</span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                    </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                {% if not hide_search %}
+                                <form class="navbar-form navbar-left" role="search" action="{% url 'search' %}">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="q" placeholder="Search for people,feeds,articles and questions ">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </div>
+                                </form>
+                                {% endif %}
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="#" id="notifications" data-container="body" data-toggle="popover" data-placement="bottom" title="Notifications">
+                                            <span class="glyphicon glyphicon-bell"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{% url 'profile' user.username %}">{{ user.profile.get_screen_name }}</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="{% url 'inbox' %}"><span class="badge pull-right" id="unread-count">0</span> Inbox</a></li>
+                                            <li><a href="{% url 'settings' %}">{% trans 'Account Settings' %}</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="{% url 'logout' %}">{% trans 'Log out' %}</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <main>
+                            <div class="container">
+                                {% block main %} {% endblock main %}
+                            </div>
+                        </main>
+                        <script src="{% static 'js/notifications.js' %}"></script>
+                        <script src="{% static 'js/check_messages.js' %}"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock body %}
+
+
+    <script src="{% static 'js/ga.js' %}"></script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>
