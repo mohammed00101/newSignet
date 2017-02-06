@@ -38,10 +38,6 @@ The Q&A app works just like Stack Overflow. You can mark a question as favorite,
 Take a look at our wiki page for a detailed [installation guide][3].
 
 
-## Demo
-
-Try Bootcamp now at [http://trybootcamp.vitorfs.com][2].
-
 [0]: https://www.python.org/
 [1]: https://www.djangoproject.com/
 [2]: http://trybootcamp.vitorfs.com/
