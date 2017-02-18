@@ -7,9 +7,10 @@ $(function () {
         $("#unread-count").text(data);
       },
       complete: function () {
-        window.setTimeout(check_messages, 60000);
+          console.log('test');
+        window.setTimeout(check_messages, 3000);
       }
     });
-  };
+  }
   check_messages();
 });
