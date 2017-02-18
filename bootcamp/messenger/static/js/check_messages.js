@@ -8,7 +8,7 @@ $(function () {
       },
       complete: function () {
           console.log('test');
-        window.setTimeout(check_messages, 3000);
+        window.setTimeout(check_messages, 60000);
       }
     });
   }
