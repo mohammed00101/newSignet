@@ -23,6 +23,35 @@ body {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+@media only screen and (min-width : 320px) {
+    .navbar{
+        background-color: var(--primary-dark);
+    }
+    .navbar-collapse {
+        background-color: var(--secondary);
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-form .input-group {
+        width: 100%;
+    }
+    .navbar-form .input-group .form-control {
+        width:100%;
+    }
+    .custom-base-nav {
+        margin-right: 0px !important;
+    }
+    .navbar-collapse.in{
+        overflow:initial; 
+    }
+}
+.navbar-default .navbar-toggle{
+    border-color: var(--secondary)
+}
+.navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover{
+     background-color: var(--primary)
+ }
 
 @media screen and (min-width: 1200px) {
     #wrapper.toggled {
@@ -366,9 +395,4 @@ body {
 
 .custom-base-nav {
     margin-right: 50px;
-}
-@media screen and (max-width: 750px) {
-    .sidebar-brand-container{
-        display: none !important;
-    }
 }

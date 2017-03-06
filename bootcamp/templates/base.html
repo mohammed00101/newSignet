@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="{% static 'css/custom-bootcamp.css' %}" rel="stylesheet">
+    <link href="{% static 'css/tarek.css' %}" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -27,7 +28,7 @@
 
     <div id="wrapper">
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" class="hidden-xs">
             <div class="sidebar-brand-container">
                 <a class="navbar-brand" href="{% url 'home' %}">SIGNET</a>
             </div>
@@ -71,9 +72,11 @@
                                       <span class="icon-bar"></span>
                                     </button>
                             </div>
-
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-left hidden-lg hidden-md hidden-sm">
+                                  <li><a href="#">Link</a></li>
+                                </ul>
                                 {% if not hide_search %}
                                 <form class="navbar-form navbar-left" role="search" action="{% url 'search' %}">
                                     <div class="input-group">
