@@ -42,7 +42,7 @@ body {
         margin-right: 0px !important;
     }
     .navbar-collapse.in{
-        overflow:initial; 
+        overflow:initial;
     }
 }
 .navbar-default .navbar-toggle{
@@ -55,17 +55,17 @@ body {
 
 @media screen and (min-width: 1200px) {
     #wrapper.toggled {
-        padding-left: 250px;
+        padding-left: 200px;
     }
 }
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    left: 200px;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -200px;
     background: var(--primary-dark);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -74,7 +74,7 @@ body {
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 250px;
+    width: 200px;
 }
 
 #page-content-wrapper {
@@ -85,7 +85,7 @@ body {
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -200px;
 }
 
 
@@ -94,7 +94,7 @@ body {
 .sidebar-nav {
     position: absolute;
     top: 70px;
-    width: 250px;
+    width: 200px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -116,13 +116,11 @@ body {
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .1s ease-in;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .sidebar-nav li a span {
     left: -13px;
-    font-size: 22px;
+    font-size: 20px;
     top: 5px;
 }
 
@@ -145,13 +143,13 @@ body {
         min-height: 71px;
     }
     #wrapper {
-        padding-left: 250px;
+        padding-left: 200px;
     }
     #wrapper.toggled {
         padding-left: 0;
     }
     #sidebar-wrapper {
-        width: 250px;
+        width: 200px;
     }
     #wrapper.toggled #sidebar-wrapper {
         display: none;
@@ -242,8 +240,8 @@ body {
 }
 
 .profile-container img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 120px !important;
+    height: 120px !important;
     border-radius: 50% !important;
     display: inline-block;
     margin-left: -25px;
@@ -299,7 +297,7 @@ body {
 @media (min-width: 750px) and (max-width: 969px) {
     .navbar-form .input-group .form-control {
         padding-left: 40px;
-        min-width: 250px;
+        min-width: 200px;
         background-color: transparent;
         height: 50px;
         border-radius: 0px;
@@ -352,7 +350,7 @@ body {
     content: '\25c4';
     color: var(--secondary);
     position: absolute;
-    right: -3px;
+    right: -5px;
     font-size: 23px;
 }
 

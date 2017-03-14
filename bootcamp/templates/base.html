@@ -41,12 +41,6 @@
                 </li>
                 <div class="text-center">
                     <h3 style="color:white; margin-left:-10px;">{{user.profile.get_screen_name | title }} </h3>
-                    <p style="color:white; color:#999999;">
-                        {% if user.profile.job_title %}<span class="glyphicon glyphicon-briefcase"></span>&nbsp; {{ user.profile.job_title | title }} {% endif %}
-                    </p>
-                    <p style="color:white; color:#999999;">
-                        {% if user.profile.location %}<span class="glyphicon glyphicon-map-marker"></span>&nbsp; {{ user.profile.location | title }} {% endif %}
-                    </p>
                 </div>
                 <li><a class="{% if url_name == 'feeds' %}active-link{% endif %}" href="{% url 'feeds'%}"><span class="glyphicon glyphicon-globe"></span>{% trans 'Feeds' %}</a></li>
                 <li><a class="{% if url_name == 'articles' %}active-link{% endif %}" href="{% url 'articles' %}"><span class="glyphicon glyphicon-th-list"></span>{% trans 'Articles' %}</a></li>
