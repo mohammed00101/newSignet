@@ -2,163 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920d2f2a-84d2-42f3-887c-8b4cbfd15bd1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/activities/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/activities/migrations/0002_auto_20170204_1322.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/activities/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/articles/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/articles/migrations/0002_auto_20170204_1322.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/articles/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/authentication/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/authentication/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/core/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/feeds/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/feeds/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/messenger/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/messenger/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/questions/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/questions/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootcamp/search/migrations/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.coveragerc" afterPath="$PROJECT_DIR$/.coveragerc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bootcamp.iml" afterPath="$PROJECT_DIR$/.idea/bootcamp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootcamp/communities/templates/communities/communities.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/admin.py" afterPath="$PROJECT_DIR$/bootcamp/activities/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/models.py" afterPath="$PROJECT_DIR$/bootcamp/activities/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/static/css/notifications.css" afterPath="$PROJECT_DIR$/bootcamp/activities/static/css/notifications.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/static/js/notifications.js" afterPath="$PROJECT_DIR$/bootcamp/activities/static/js/notifications.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/templates/activities/last_notifications.html" afterPath="$PROJECT_DIR$/bootcamp/activities/templates/activities/last_notifications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/templates/activities/notifications.html" afterPath="$PROJECT_DIR$/bootcamp/activities/templates/activities/notifications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/tests.py" afterPath="$PROJECT_DIR$/bootcamp/activities/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/activities/views.py" afterPath="$PROJECT_DIR$/bootcamp/activities/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/admin.py" afterPath="$PROJECT_DIR$/bootcamp/articles/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/forms.py" afterPath="$PROJECT_DIR$/bootcamp/articles/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/models.py" afterPath="$PROJECT_DIR$/bootcamp/articles/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/static/css/articles.css" afterPath="$PROJECT_DIR$/bootcamp/articles/static/css/articles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/static/js/articles.js" afterPath="$PROJECT_DIR$/bootcamp/articles/static/js/articles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/article.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/articles.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/drafts.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/drafts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/edit.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article_comment.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article_comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article_comments.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/partial_article_comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/templates/articles/write.html" afterPath="$PROJECT_DIR$/bootcamp/articles/templates/articles/write.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/tests/test_articles.py" afterPath="$PROJECT_DIR$/bootcamp/articles/tests/test_articles.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/urls.py" afterPath="$PROJECT_DIR$/bootcamp/articles/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/articles/views.py" afterPath="$PROJECT_DIR$/bootcamp/articles/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/admin.py" afterPath="$PROJECT_DIR$/bootcamp/authentication/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/forms.py" afterPath="$PROJECT_DIR$/bootcamp/authentication/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/models.py" afterPath="$PROJECT_DIR$/bootcamp/authentication/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/static/css/signup.css" afterPath="$PROJECT_DIR$/bootcamp/authentication/static/css/signup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/templates/authentication/signup.html" afterPath="$PROJECT_DIR$/bootcamp/authentication/templates/authentication/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/tests.py" afterPath="$PROJECT_DIR$/bootcamp/authentication/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/authentication/views.py" afterPath="$PROJECT_DIR$/bootcamp/authentication/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/forms.py" afterPath="$PROJECT_DIR$/bootcamp/core/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/models.py" afterPath="$PROJECT_DIR$/bootcamp/core/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/static/css/cover.css" afterPath="$PROJECT_DIR$/bootcamp/core/static/css/cover.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/static/css/network.css" afterPath="$PROJECT_DIR$/bootcamp/core/static/css/network.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/static/css/profile.css" afterPath="$PROJECT_DIR$/bootcamp/core/static/css/profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/static/js/picture.js" afterPath="$PROJECT_DIR$/bootcamp/core/static/js/picture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/cover.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/cover.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/network.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/partial_settings_menu.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/partial_settings_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/password.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/picture.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/picture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/profile.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/templates/core/settings.html" afterPath="$PROJECT_DIR$/bootcamp/core/templates/core/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/tests.py" afterPath="$PROJECT_DIR$/bootcamp/core/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/core/views.py" afterPath="$PROJECT_DIR$/bootcamp/core/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/decorators.py" afterPath="$PROJECT_DIR$/bootcamp/decorators.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/admin.py" afterPath="$PROJECT_DIR$/bootcamp/feeds/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/models.py" afterPath="$PROJECT_DIR$/bootcamp/feeds/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/static/css/custom-feeds.css" afterPath="$PROJECT_DIR$/bootcamp/feeds/static/css/custom-feeds.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/static/css/feeds.css" afterPath="$PROJECT_DIR$/bootcamp/feeds/static/css/feeds.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/static/js/feeds.js" afterPath="$PROJECT_DIR$/bootcamp/feeds/static/js/feeds.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/feed.html" afterPath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/feed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/feeds.html" afterPath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/feeds.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/partial_feed.html" afterPath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/partial_feed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/partial_feed_comments.html" afterPath="$PROJECT_DIR$/bootcamp/feeds/templates/feeds/partial_feed_comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/tests.py" afterPath="$PROJECT_DIR$/bootcamp/feeds/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/urls.py" afterPath="$PROJECT_DIR$/bootcamp/feeds/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/feeds/views.py" afterPath="$PROJECT_DIR$/bootcamp/feeds/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/locale/es/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/bootcamp/locale/es/LC_MESSAGES/django.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/locale/jp/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/bootcamp/locale/jp/LC_MESSAGES/django.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/bootcamp/locale/pt_BR/LC_MESSAGES/django.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/locale/zh_CN/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/bootcamp/locale/zh_CN/LC_MESSAGES/django.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/admin.py" afterPath="$PROJECT_DIR$/bootcamp/messenger/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/models.py" afterPath="$PROJECT_DIR$/bootcamp/messenger/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/static/css/messages.css" afterPath="$PROJECT_DIR$/bootcamp/messenger/static/css/messages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/static/js/check_messages.js" afterPath="$PROJECT_DIR$/bootcamp/messenger/static/js/check_messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/static/js/messages.js" afterPath="$PROJECT_DIR$/bootcamp/messenger/static/js/messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/static/js/messages.typehead.js" afterPath="$PROJECT_DIR$/bootcamp/messenger/static/js/messages.typehead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/base_messages.html" afterPath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/base_messages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/inbox.html" afterPath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/inbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/includes/partial_conversations.html" afterPath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/includes/partial_conversations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/includes/partial_message.html" afterPath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/includes/partial_message.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/new.html" afterPath="$PROJECT_DIR$/bootcamp/messenger/templates/messenger/new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/tests.py" afterPath="$PROJECT_DIR$/bootcamp/messenger/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/urls.py" afterPath="$PROJECT_DIR$/bootcamp/messenger/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/messenger/views.py" afterPath="$PROJECT_DIR$/bootcamp/messenger/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/admin.py" afterPath="$PROJECT_DIR$/bootcamp/questions/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/forms.py" afterPath="$PROJECT_DIR$/bootcamp/questions/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/models.py" afterPath="$PROJECT_DIR$/bootcamp/questions/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/static/css/questions.css" afterPath="$PROJECT_DIR$/bootcamp/questions/static/css/questions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/static/js/questions.js" afterPath="$PROJECT_DIR$/bootcamp/questions/static/js/questions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/templates/questions/ask.html" afterPath="$PROJECT_DIR$/bootcamp/questions/templates/questions/ask.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/templates/questions/partial_answer.html" afterPath="$PROJECT_DIR$/bootcamp/questions/templates/questions/partial_answer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/templates/questions/partial_question.html" afterPath="$PROJECT_DIR$/bootcamp/questions/templates/questions/partial_question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/templates/questions/question.html" afterPath="$PROJECT_DIR$/bootcamp/questions/templates/questions/question.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/templates/questions/questions.html" afterPath="$PROJECT_DIR$/bootcamp/questions/templates/questions/questions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/tests.py" afterPath="$PROJECT_DIR$/bootcamp/questions/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/urls.py" afterPath="$PROJECT_DIR$/bootcamp/questions/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/questions/views.py" afterPath="$PROJECT_DIR$/bootcamp/questions/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/models.py" afterPath="$PROJECT_DIR$/bootcamp/search/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/static/css/search.css" afterPath="$PROJECT_DIR$/bootcamp/search/static/css/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/static/js/search.js" afterPath="$PROJECT_DIR$/bootcamp/search/static/js/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_articles_results.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_articles_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_feed_results.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_feed_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_questions_results.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_questions_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_results_menu.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_results_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_users_results.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/partial_users_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/results.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/templates/search/search.html" afterPath="$PROJECT_DIR$/bootcamp/search/templates/search/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/tests.py" afterPath="$PROJECT_DIR$/bootcamp/search/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/search/views.py" afterPath="$PROJECT_DIR$/bootcamp/search/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/communities/views.py" afterPath="$PROJECT_DIR$/bootcamp/communities/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/settings.py" afterPath="$PROJECT_DIR$/bootcamp/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/css/custom-bootcamp.css" afterPath="$PROJECT_DIR$/bootcamp/static/css/custom-bootcamp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/css/jquery.Jcrop.min.css" afterPath="$PROJECT_DIR$/bootcamp/static/css/jquery.Jcrop.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/css/tarek.css" afterPath="$PROJECT_DIR$/bootcamp/static/css/tarek.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/bootcamp.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/bootcamp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/bootcamp.markdown.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/bootcamp.markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/ga.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/ga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/jquery.Jcrop.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/jquery.bullseye-1.0-min.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/jquery.bullseye-1.0-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/jquery.nicescroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/jquery.selection.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/jquery.selection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/static/js/jquery.typeahead.bundle.js" afterPath="$PROJECT_DIR$/bootcamp/static/js/jquery.typeahead.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/403.html" afterPath="$PROJECT_DIR$/bootcamp/templates/403.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/404.html" afterPath="$PROJECT_DIR$/bootcamp/templates/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/500.html" afterPath="$PROJECT_DIR$/bootcamp/templates/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/base.html" afterPath="$PROJECT_DIR$/bootcamp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/markdown_editor.html" afterPath="$PROJECT_DIR$/bootcamp/templates/markdown_editor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/templates/paginator.html" afterPath="$PROJECT_DIR$/bootcamp/templates/paginator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/urls.py" afterPath="$PROJECT_DIR$/bootcamp/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootcamp/wsgi.py" afterPath="$PROJECT_DIR$/bootcamp/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev.yml" afterPath="$PROJECT_DIR$/dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entrypoint.sh" afterPath="$PROJECT_DIR$/entrypoint.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime.txt" afterPath="$PROJECT_DIR$/runtime.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -168,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/signet$settings.coverage" NAME="settings Coverage Results" MODIFIED="1489880552545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bootcamp" />
+    <SUITE FILE_PATH="coverage/signet$settings.coverage" NAME="settings Coverage Results" MODIFIED="1490475894137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bootcamp" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -187,38 +34,72 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/authentication/forms.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/core/forms.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootcamp/communities/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="954">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/search/models.py">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/communities/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/search/tests.py">
+      <file leaf-file-name="communities.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/communities/templates/communities/communities.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/feeds/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/feeds/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -227,66 +108,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/search/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/authentication/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootcamp/core/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootcamp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootcamp/communities/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="72">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -297,6 +126,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -306,6 +136,7 @@
       <find>user</find>
       <find>User</find>
       <find>network</find>
+      <find>comm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -331,7 +162,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/bootcamp/communities/serializers.py" />
-        <option value="$PROJECT_DIR$/bootcamp/urls.py" />
         <option value="$PROJECT_DIR$/bootcamp/feeds/admin.py" />
         <option value="$PROJECT_DIR$/bootcamp/communities/admin.py" />
         <option value="$PROJECT_DIR$/bootcamp/communities/models.py" />
@@ -339,10 +169,12 @@
         <option value="$PROJECT_DIR$/bootcamp/core/forms.py" />
         <option value="$PROJECT_DIR$/bootcamp/authentication/views.py" />
         <option value="$PROJECT_DIR$/bootcamp/authentication/models.py" />
-        <option value="$PROJECT_DIR$/bootcamp/communities/views.py" />
-        <option value="$PROJECT_DIR$/bootcamp/communities/urls.py" />
-        <option value="$PROJECT_DIR$/bootcamp/settings.py" />
         <option value="$PROJECT_DIR$/bootcamp/core/views.py" />
+        <option value="$PROJECT_DIR$/bootcamp/urls.py" />
+        <option value="$PROJECT_DIR$/bootcamp/settings.py" />
+        <option value="$PROJECT_DIR$/bootcamp/communities/urls.py" />
+        <option value="$PROJECT_DIR$/bootcamp/communities/templates/communities/communities.html" />
+        <option value="$PROJECT_DIR$/bootcamp/communities/views.py" />
       </list>
     </option>
   </component>
@@ -376,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,7 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
+              <option name="myItemId" value="communities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,31 +267,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signet" />
+              <option name="myItemId" value="communities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootcamp" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
+              <option name="myItemId" value="communities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,9 +289,67 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager" selected="Python.settings">
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bootcamp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bootcamp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bootcamp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -501,6 +381,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="bootcamp" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -649,19 +545,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7253289" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="manage.py@bootcamp" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7253289" sideWeight="0.4969651" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@bootcamp" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7253289" sideWeight="0.4969651" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6683006" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677632" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -673,6 +569,28 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7253289" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="manage.py@bootcamp" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7253289" sideWeight="0.4969651" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677632" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -682,25 +600,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bootcamp/communities/urls.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -828,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/activities/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootcamp/articles/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -864,13 +767,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e94f2b3-b94e-4fca-ba80-88ef74f705ed/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/feeds/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -937,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,43 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/communities/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/communities/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/communities/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootcamp/authentication/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,15 +868,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/search/models.py">
+    <entry file="file://$PROJECT_DIR$/bootcamp/activities/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1024,33 +896,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/search/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/feeds/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/feeds/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/search/views.py">
+    <entry file="file://$PROJECT_DIR$/bootcamp/communities/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootcamp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="378">
+          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/core/views.py">
+    <entry file="file://$PROJECT_DIR$/bootcamp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="954">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/communities/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/communities/templates/communities/communities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/communities/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
